@@ -1,0 +1,95 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(12 , 1fr);
+    grid-template-rows: 70px 400px 202px 400px 400px 400px;
+    row-gap: 15px;
+    column-gap: 10px;
+    
+   
+}
+.header{
+grid-column: 1 / -1;
+
+}
+.menu{
+grid-column: 2 / span 2;
+height: 350px;
+border-radius: 10px;
+}
+
+.main-table{
+    grid-column: 4 / span 5;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.option{
+grid-column: 9 / span 3;
+height: 350px;
+border-radius: 10px;
+}
+.second{
+    grid-column: 2 / span 2;
+    height: 200px;
+    border-radius: 10px;
+}
+.third{
+    grid-column: 4 / span 5;
+    height: 200px;
+    border-radius: 10px;
+}
+.fourth{
+    grid-column: 9 / span 3;
+    border-radius: 10px;
+    height: 300px;
+}
+.fifth{
+    grid-column: 4 / span 5;
+    border-radius: 10px;
+}
+.sixth{
+    grid-column: 4 / span 5;
+border-radius: 10px;
+}
+.seventh{
+    grid-column: 4 / span 5;
+    border-radius: 10px;
+}
+nav :first-child{
+    background-color:rgb(29, 34, 38);
+    
+}
+nav :nth-child(2){
+    background-color:rgb(207, 186, 186);
+}
+nav :nth-child(3){
+    background-color: rgb(207, 3, 3);
+}    
+nav :nth-child(4){
+background-color: rgb(116, 175, 116);
+}
+nav :nth-child(5){
+background-color: #fff;
+}
+nav :nth-child(6){
+background-color: #fff;
+}
+nav :nth-child(7){
+background-color: #fff;
+}
+nav :nth-child(8){
+    background-color: rgb(47, 24, 24)
+}
+nav :nth-child(9){
+    background-color: rgb(14, 51, 8);
+}
+nav :last-child{
+    background-color: rgb(69, 27, 117);
+
+}
